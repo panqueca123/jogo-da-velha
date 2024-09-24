@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    font-family: "Source Code Pro", monospace;
+    
+}
+body{
+    text-align: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+button{
+    cursor: pointer;
+    border: width 6px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: rgba(25, 7, 41, 0.247);
+    font-size: 100px;
+    border-left: 0;
+    border-top: 0;
+    vertical-align: top;
+}
+
+h1,h2{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.btjogo0, .btjogo1{
+    padding-top: 0;
+    margin-top: 0;
+
+}
+.btJogo2{
+    border-bottom: 0;
+}
+
+#bt02, #bt12, #bt22{
+    border-right: 0;
+}
+
+button:disabled{
+    border-color: rgb(248, 248, 248);
+}
